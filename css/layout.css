@@ -108,6 +108,53 @@ button
   display: inline-block;
 }
 
+
+.post-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+}
+
+
+.Article-blog-post { grid-area: 2 / 2 / 9 / 7; 
+  align-items: flex-start; 
+  justify-items: center;
+  align-self: flex-start;}
+
+.About-Author { grid-area: 2 / 7 / 7 / 9;
+                align-items: center; 
+                justify-items: center;
+                align-self: center;}
+
+.Sharing { grid-area: 7 / 7 / 9 / 9;
+  align-items: center; 
+  justify-items: center;
+  align-self: center;
+ }
+
+.Authorbox
+  {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  }
+
+.sharingbox
+  {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     
+  }
+
+
+
+
+
   @media(max-width:320px)
     {}
     
