@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Pirata+One&display=swap');
+
+p
+    {
+        font-family: 'Times New Roman', Times, serif; 
+        font-size: 20px;
+        color: rgb(76, 76, 206);       
+    }
+
+h1
+    {
+        font-family: 'Pirata One', cursive;
+        font-size: 52px;
+        color: darkslateblue;
+    }
+
+h2
+    {
+        font-family: 'Lora', serif;
+        font-size: 22px;
+        color: mediumslateblue;
+    }
+
+h4 
+    {
+        justify-content: right;
+        font-family: 'Lora', serif;
+        font-size: 18px;
+        color: mediumslateblue;
+    }

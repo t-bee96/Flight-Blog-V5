@@ -1,0 +1,120 @@
+@import "navbar.css";
+@import "footbar.css";
+@import "typography.css";
+
+
+div 
+{
+border-style: dashed;
+border-color: darkblue;
+border-width: 5px;
+}
+
+.blog-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+    "BLOG-TITLE BLOG-TITLE BLOG-TITLE BLOG-TITLE BLOG-TITLE BLOG-TITLE BLOG-TITLE BLOG-TITLE"
+    "Margin FIRST-POST FIRST-POST FIRST-POST FIRST-POST FIRST-POST FIRST-POST right-margin"
+    "Margin FIRST-POST FIRST-POST FIRST-POST FIRST-POST FIRST-POST FIRST-POST right-margin"
+    "Margin Feature-1 Feature-1 Feature-1 Feature-2 Feature-2 Feature-2 right-margin"
+    "Margin Feature-1 Feature-1 Feature-1 Feature-2 Feature-2 Feature-2 right-margin"
+    "Margin Feature-1 Feature-1 Feature-1 Feature-2 Feature-2 Feature-2 right-margin"
+    "Margin Related-posts Related-posts Related-posts Related-posts Related-posts Related-posts right-margin"
+    "Margin Related-posts Related-posts Related-posts Related-posts Related-posts Related-posts right-margin"
+    "Margin Related-posts Related-posts Related-posts Related-posts Related-posts Related-posts right-margin"
+    "Footer Footer Footer Footer Footer Footer Footer Footer";
+}
+  
+  
+  .BLOG-TITLE { grid-area: BLOG-TITLE; }
+  
+  .Margin { grid-area: Margin; }
+  
+  .FIRST-POST { grid-area: FIRST-POST;
+                align-self: center;
+                text-align: center; }
+  
+  .Feature-1 { grid-area: Feature-1; }
+  
+  .Feature-2 { grid-area: Feature-2; }
+  
+  .Related-posts { grid-area: Related-posts; }
+  
+  .Footer { grid-area: Footer;
+            background-color: darkgray; }
+
+  .right-margin { grid-area: right-margin; }
+
+  .foottext
+    {
+      display:flex;
+      justify-content: center;
+      align-items:center;
+    }
+  
+#titlepic
+  {
+max-width: 100%;
+height: auto;
+  }
+
+  #articlepic
+  {
+max-width: 100%;
+height: auto;
+align-self: center;
+  }
+
+#quotebox
+  {
+display: flex;
+
+justify-content: center;
+  }
+
+  .card
+  {
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      padding: 10 10;
+      transition: 0.3s;
+      width: 100%;
+      border-radius: 5px;
+  }
+
+.card img
+  {
+    align-items: center;
+  }
+
+  span {
+    content: "\00A9";
+  } 
+
+
+  figcaption
+    {
+      text-align: center;
+    }
+
+  img {
+    align-self: center;
+  }
+
+button
+{
+  display: inline-block;
+}
+
+  @media(max-width:320px)
+    {}
+    
+    @media(min-width:600px)and(max-width:900px)
+    {}
+    
+    @media(min-width:901px)
+    {}
+    
+    
